@@ -3,14 +3,20 @@ using Models;
 using Newtonsoft;
 using Newtonsoft.Json;
 
-
-List<Carro> carros = new List<Carro>();
-
-for (int i = 0; i < 30; i++)
+void GerarJson(List<Carro> lista)
 {
-    carros.Add(GerarCarro());
+    try
+    {
+        string json = JsonConvert.SerializeObject(lista, Formatting.Indented);
+        StreamWriter streamWriter = new StreamWriter(caminho + arquivo);
+        streamWriter.Write(json);
+        streamWriter.Close();
+    }
+    catch (Exception)
+    {
+        Console.WriteLine("Ocorreu um erro ao gerar o arquivo...");
+    }
 }
-
 
 string GerarCor()
 {
@@ -79,7 +85,7 @@ string GerarPlaca()
     placa += letras[new Random().Next(0, letras.Length)];
     placa += new Random().Next(0, 10).ToString();
     placa += new Random().Next(0, 10).ToString();
-
+    
     return placa;
 }
 
@@ -97,3 +103,17 @@ Carro GerarCarro(){
     };
     return carro;
 }
+
+
+
+List<Carro> carros = new List<Carro>();
+
+for (int i = 0; i < 30; i++)
+{
+    carros.Add(GerarCarro());
+}
+
+string caminho = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..", @"..", @"..", @"..", @".."));
+string arquivo = @"\Carros.json";
+
+GerarJson(carros);
