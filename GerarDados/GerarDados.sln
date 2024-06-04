@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerarDados", "GerarDados\GerarDados.csproj", "{9CC45125-8EF4-428F-BEA1-AADE08E4ECCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "..\Models\Models\Models.csproj", "{3734BD24-115F-4BA7-852C-4A0A82EB13F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CC45125-8EF4-428F-BEA1-AADE08E4ECCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC45125-8EF4-428F-BEA1-AADE08E4ECCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC45125-8EF4-428F-BEA1-AADE08E4ECCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC45125-8EF4-428F-BEA1-AADE08E4ECCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3734BD24-115F-4BA7-852C-4A0A82EB13F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3734BD24-115F-4BA7-852C-4A0A82EB13F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3734BD24-115F-4BA7-852C-4A0A82EB13F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3734BD24-115F-4BA7-852C-4A0A82EB13F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1C92CAA-16BB-4480-ACAE-04A1420FD387}
+	EndGlobalSection
+EndGlobal
