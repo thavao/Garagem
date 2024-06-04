@@ -1,4 +1,6 @@
-﻿namespace Models
+﻿using Newtonsoft;
+using Newtonsoft.Json;
+namespace Models
 {
     public class Carro
     {

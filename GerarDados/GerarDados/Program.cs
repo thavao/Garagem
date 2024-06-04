@@ -1,10 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Models;
+using Newtonsoft;
+using Newtonsoft.Json;
 
-Carro carro = GerarCarro();
 
+List<Carro> carros = new List<Carro>();
 
-Console.WriteLine(carro.ToString());
+for (int i = 0; i < 30; i++)
+{
+    carros.Add(GerarCarro());
+}
+
 
 string GerarCor()
 {
