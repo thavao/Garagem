@@ -1,0 +1,212 @@
+[
+  {
+    "Placa": "ASO0B50",
+    "Nome": "Nissan Altima",
+    "AnoModelo": 1993,
+    "AnoFabricacao": 2007,
+    "Cor": "Marrom"
+  },
+  {
+    "Placa": "FAW9Y90",
+    "Nome": "Nissan Altima",
+    "AnoModelo": 2023,
+    "AnoFabricacao": 2023,
+    "Cor": "Branco"
+  },
+  {
+    "Placa": "YWL0L83",
+    "Nome": "Infiniti Q50",
+    "AnoModelo": 2022,
+    "AnoFabricacao": 2022,
+    "Cor": "Preto"
+  },
+  {
+    "Placa": "LKF5B73",
+    "Nome": "Volvo S60",
+    "AnoModelo": 2002,
+    "AnoFabricacao": 2016,
+    "Cor": "Preto"
+  },
+  {
+    "Placa": "CEO6P67",
+    "Nome": "Rolls-Royce Phantom",
+    "AnoModelo": 2007,
+    "AnoFabricacao": 2019,
+    "Cor": "Vermelho"
+  },
+  {
+    "Placa": "YON5A45",
+    "Nome": "McLaren 720S",
+    "AnoModelo": 1993,
+    "AnoFabricacao": 2010,
+    "Cor": "Prata"
+  },
+  {
+    "Placa": "CPG2G27",
+    "Nome": "Kia Optima",
+    "AnoModelo": 2025,
+    "AnoFabricacao": 2024,
+    "Cor": "Roxo"
+  },
+  {
+    "Placa": "CMP4A00",
+    "Nome": "Volvo S60",
+    "AnoModelo": 1992,
+    "AnoFabricacao": 1998,
+    "Cor": "Verde"
+  },
+  {
+    "Placa": "URS2T47",
+    "Nome": "Kia Optima",
+    "AnoModelo": 2002,
+    "AnoFabricacao": 2006,
+    "Cor": "Verde"
+  },
+  {
+    "Placa": "YEX2E94",
+    "Nome": "Hyundai Elantra",
+    "AnoModelo": 2001,
+    "AnoFabricacao": 2022,
+    "Cor": "Amarelo"
+  },
+  {
+    "Placa": "EUH4D17",
+    "Nome": "Mini Cooper",
+    "AnoModelo": 2005,
+    "AnoFabricacao": 2015,
+    "Cor": "Cinza"
+  },
+  {
+    "Placa": "KIB2L31",
+    "Nome": "Volvo S60",
+    "AnoModelo": 1994,
+    "AnoFabricacao": 2007,
+    "Cor": "Roxo"
+  },
+  {
+    "Placa": "HFC6I54",
+    "Nome": "Ford Mustang",
+    "AnoModelo": 2025,
+    "AnoFabricacao": 2024,
+    "Cor": "Vermelho"
+  },
+  {
+    "Placa": "GMY0I99",
+    "Nome": "Volkswagen Golf",
+    "AnoModelo": 2021,
+    "AnoFabricacao": 2023,
+    "Cor": "Azul"
+  },
+  {
+    "Placa": "XNW5N41",
+    "Nome": "BMW 3 Series",
+    "AnoModelo": 1993,
+    "AnoFabricacao": 2005,
+    "Cor": "Roxo"
+  },
+  {
+    "Placa": "SRN9G46",
+    "Nome": "Porsche 911",
+    "AnoModelo": 1990,
+    "AnoFabricacao": 2013,
+    "Cor": "Prata"
+  },
+  {
+    "Placa": "VEU3F22",
+    "Nome": "Hyundai Elantra",
+    "AnoModelo": 2020,
+    "AnoFabricacao": 2019,
+    "Cor": "Azul"
+  },
+  {
+    "Placa": "ZFN9T19",
+    "Nome": "Kia Optima",
+    "AnoModelo": 2024,
+    "AnoFabricacao": 2023,
+    "Cor": "Marrom"
+  },
+  {
+    "Placa": "ZEZ6J25",
+    "Nome": "Tesla Model 3",
+    "AnoModelo": 2018,
+    "AnoFabricacao": 2020,
+    "Cor": "Cinza"
+  },
+  {
+    "Placa": "TOT4G79",
+    "Nome": "Hyundai Elantra",
+    "AnoModelo": 1991,
+    "AnoFabricacao": 2005,
+    "Cor": "Cinza"
+  },
+  {
+    "Placa": "MIY5P58",
+    "Nome": "Rolls-Royce Phantom",
+    "AnoModelo": 2024,
+    "AnoFabricacao": 2023,
+    "Cor": "Preto"
+  },
+  {
+    "Placa": "XRI1V15",
+    "Nome": "Nissan Altima",
+    "AnoModelo": 1995,
+    "AnoFabricacao": 1998,
+    "Cor": "Vermelho"
+  },
+  {
+    "Placa": "MUS2Q35",
+    "Nome": "Chevrolet Camaro",
+    "AnoModelo": 2024,
+    "AnoFabricacao": 2023,
+    "Cor": "Preto"
+  },
+  {
+    "Placa": "OXP8R50",
+    "Nome": "Ford Mustang",
+    "AnoModelo": 2013,
+    "AnoFabricacao": 2016,
+    "Cor": "Cinza"
+  },
+  {
+    "Placa": "IBX0L25",
+    "Nome": "Jaguar XE",
+    "AnoModelo": 1998,
+    "AnoFabricacao": 2007,
+    "Cor": "Cinza"
+  },
+  {
+    "Placa": "VSW8P47",
+    "Nome": "Volvo S60",
+    "AnoModelo": 2003,
+    "AnoFabricacao": 2002,
+    "Cor": "Prata"
+  },
+  {
+    "Placa": "EIO8D22",
+    "Nome": "Ford Mustang",
+    "AnoModelo": 1993,
+    "AnoFabricacao": 2002,
+    "Cor": "Marrom"
+  },
+  {
+    "Placa": "XMH2I06",
+    "Nome": "Volvo S60",
+    "AnoModelo": 1998,
+    "AnoFabricacao": 2014,
+    "Cor": "Marrom"
+  },
+  {
+    "Placa": "VPB2T85",
+    "Nome": "Hyundai Elantra",
+    "AnoModelo": 2016,
+    "AnoFabricacao": 2015,
+    "Cor": "Roxo"
+  },
+  {
+    "Placa": "JQJ5W34",
+    "Nome": "Mini Cooper",
+    "AnoModelo": 1990,
+    "AnoFabricacao": 2000,
+    "Cor": "Preto"
+  }
+]
