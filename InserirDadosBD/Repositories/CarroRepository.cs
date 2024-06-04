@@ -21,7 +21,7 @@ namespace Repositories
             {
                 db.Open();
                 db.Execute("INSERT INTO CARRO (Placa, Nome, AnoModelo, AnoFabricacao, Cor)" +
-                    " VALUES (@Placa, @Nome, @AnoModelo, @AnoFabricacao, @Cor)");
+                    " VALUES (@Placa, @Nome, @AnoModelo, @AnoFabricacao, @Cor)", carro);
                 status = true;
                 db.Close();
             }
