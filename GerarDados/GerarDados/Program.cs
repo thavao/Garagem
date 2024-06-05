@@ -3,6 +3,8 @@ using Models;
 using Newtonsoft;
 using Newtonsoft.Json;
 
+string caminho = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..", @"..", @"..", @"..", @".."));
+string arquivo = @"\Carros.json";
 void GerarJson(List<Carro> lista)
 {
     try
@@ -113,7 +115,5 @@ for (int i = 0; i < 30; i++)
     carros.Add(GerarCarro());
 }
 
-string caminho = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..", @"..", @"..", @"..", @".."));
-string arquivo = @"\Carros.json";
 
 GerarJson(carros);
