@@ -1,15 +1,18 @@
 ﻿using Models;
 using Controllers;
+using Newtonsoft.Json;
 
-Carro carro = new Carro
+string caminho = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), @"..", @"..", @"..", @"..", @".."));
+string arquivo = @"\Carros.json";
+
+
+StreamReader streamReader= new StreamReader(caminho + arquivo);
+string jsonString = streamReader.ReadToEnd();
+
+List<Carro>? carros = JsonConvert.DeserializeObject<List<Carro>>(jsonString);
+streamReader.Close();
+
+foreach (var item in carros)
 {
-    Placa = "1234abc",
-    Nome = "joao",
-    AnoModelo = 2015,
-    AnoFabricacao = 2017,
-    Cor = "Ultra-Violeta"
-};
-
-new CarroController().Inserir(carro);
-
-Console.WriteLine("Fim");
+    new CarroController().Inserir(item);
+}
